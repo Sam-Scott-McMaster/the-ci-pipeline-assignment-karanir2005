@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 int main(int num_args, char *args[]) { //main method takes the number of arguments, and the arguments themselves, as parameters.
-    if (num_args < 2) {
+    if (num_args < 2) { 
         printf("Usage: quiz [-#] [<answer>]\n");
         printf("Try 'quiz --help' for more information.\n"); //if number or arguments is <2 (./quiz is the first argument)
                                                              //then print a usage message and return EXIT_FAILURE

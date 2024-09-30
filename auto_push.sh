@@ -14,7 +14,7 @@ git add .
 git commit -m "$MESSAGE"
 git tag "$TAG"
 git push origin main
-git push origin "$TAG_NAME"
+git push origin "$TAG"
 
 #echos confirmation message
 echo "Changes added, committed, tagged, and pushed successfully!"
